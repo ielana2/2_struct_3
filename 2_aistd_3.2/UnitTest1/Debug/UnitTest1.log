@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  UnitTest1.cpp
+     Создается библиотека D:\Visual Studio\2_aistd_3.2\Debug\UnitTest1.lib и объект D:\Visual Studio\2_aistd_3.2\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall Algorithm::readList(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?readList@Algorithm@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) в функции "public: void __thiscall lab3test::lab3test::empty_file(void)" (?empty_file@lab3test@1@QAEXXZ).
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: int * __thiscall Algorithm::Dijkstra(int &)" (?Dijkstra@Algorithm@@QAEPAHAAH@Z) в функции "public: void __thiscall lab3test::lab3test::empty_file(void)" (?empty_file@lab3test@1@QAEXXZ).
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall Algorithm::writeList(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?writeList@Algorithm@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) в функции "public: void __thiscall lab3test::lab3test::empty_file(void)" (?empty_file@lab3test@1@QAEXXZ).
+D:\Visual Studio\2_aistd_3.2\Debug\UnitTest1.dll : fatal error LNK1120: неразрешенных внешних элементов: 3
